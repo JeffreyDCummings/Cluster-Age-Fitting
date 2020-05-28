@@ -56,7 +56,6 @@ int main()
 					comp2 = Difftemp[2] + Sep - Difftemp[1];
 					if (comp1 < 0 && (Diff[x][m] > Difftemp[1] || c == 0))
 						Diff[x][m] = Difftemp[1];
-						//printf("%lf %lf %lf", Difftemp[1], Difftemp[2], Difftemp[0]); }
 					if (comp2 < 0 && (Diff[x][m] > Difftemp[2] || c == 0))
 						Diff[x][m] = Difftemp[2];
 					if (comp1 >= 0 && comp2 >= 0) {
